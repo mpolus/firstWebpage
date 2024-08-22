@@ -3,101 +3,136 @@
 <head>
     <meta charset="UTF-8">
     <title>My First Page</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 
-    <h1>All About Me</h1>
+<h1>All About Me</h1>
 
-    <p>I'm a senior.</p>
+<p>I'm a senior.</p>
 
-    <p>My favorite color is pink.</p>
+<p>My favorite color is pink.</p>
 
-    <!--<p>Comment</p>-->
+<!--<p>Comment</p>-->
 
-    <h2>Class Schedule</h2>
-    <ol>
-        <li>CPR/First Aid</li>
-        <li>AP Lit</li>
-        <li>Concert Band</li>
-        <li>Software Development</li>
-        <li>Website/Database Development</li>
-        <li> <strong>AP Chem</strong> </li>
-        <li>AP Calc</li>
-        <li> <em>Advisory</em> </li>
-    </ol>
+<h2>Class Schedule</h2>
+<ol>
+    <li>CPR/First Aid</li>
+    <li>AP Lit</li>
+    <li>Concert Band</li>
+    <li>Software Development</li>
+    <li>Website/Database Development</li>
+    <li><strong>AP Chem</strong></li>
+    <li>AP Calc</li>
+    <li><em>Advisory</em></li>
+</ol>
 
-    <h2>Favorite Colors</h2>
-    <ul>
-        <li>pink</li>
-        <li>brown</li>
-        <li>orange</li>
-        <li>green</li>
-    </ul>
+<h2>Favorite Colors</h2>
+<ul>
+    <li>pink</li>
+    <li>brown</li>
+    <li>orange</li>
+    <li>green</li>
+</ul>
 
+<p>
+    <a href="https://htmlcolorcodes.com/colors/shades-of-pink/" target="_blank">
+        Colors
+    </a>
+</p>
+
+<p>Quote:</p>
+<blockquote
+        cite="https://www.goodreads.com/work/quotes/1207563-dead-poets-society">
     <p>
-        <a href="https://htmlcolorcodes.com/colors/shades-of-pink/" target="_blank">
-            Colors
-        </a>
+        <em>“Carpe Diem, seize the day boys, make your lives extraordinary.”</em>
+
     </p>
-
-    <p>Quote:</p>
-    <blockquote
-            cite="https://www.goodreads.com/work/quotes/1207563-dead-poets-society">
-        <p>
-            <em>“Carpe Diem, seize the day boys, make your lives extraordinary.”</em>
-
-        </p>
-    </blockquote>
+</blockquote>
 
 
-    <video src="https://www.youtube.com/watch?v=SZ8psP4S6BQ" controls>
-        <p>
-            <a href="https://www.youtube.com/watch?v=SZ8psP4S6BQ"></a>
-        </p>
-    </video>
-    <form action="http://htmlcolorcodes.com"></form>
-        <li>
-            <label for="color">Color:</label>
-            <input type="text" id="color" name="user_color" />
-        </li>
-
-
-    <p class="button">
-        <button type="submit">Send your message</button>
+<video controls>
+    <source src="https://www.youtube.com/watch?v=SZ8psP4S6BQ">
+    <p>
+        <a href="https://www.youtube.com/watch?v=SZ8psP4S6BQ"></a>
     </p>
+</video>
+<form action="http://htmlcolorcodes.com"></form>
+<ul>
+    <li>
+        <label for="color">Color:</label>
+        <input type="text" id="color" name="user_color"/>
+    </li>
+</ul>
 
 
-    <form>
-        <fieldset>
-            <legend>Shirt Size</legend>
-            <p>
-                <input type="radio" name="size" id="size_1" value="small" />
-                <label for="size_1">Small</label>
-            </p>
-            <p>
-                <input type="radio" name="size" id="size_2" value="medium" />
-                <label for="size_2">Medium</label>
-            </p>
-            <p>
-                <input type="radio" name="size" id="size_3" value="large" />
-                <label for="size_3">Large</label>
-            </p>
-        </fieldset>
-    </form>
+<p class="button">
+    <button type="submit">Send your message</button>
+</p>
 
 
-    <form>
+<form>
+    <fieldset>
+        <legend>Shirt Size</legend>
         <p>
-            <input type="checkbox" id="taste_1" name="taste_cherry" value="cherry" />
-            <label for="taste_1">I like cherries.</label>
+            <input type="radio" name="size" id="size_1" value="small"/>
+            <label for="size_1">Small</label>
         </p>
         <p>
-            <input type="checkbox" id="taste_2" name="taste_banana" value="banana" />
-            <label for="taste_2">I like bananas.</label>
+            <input type="radio" name="size" id="size_2" value="medium"/>
+            <label for="size_2">Medium</label>
         </p>
         <p>
-            <input type="checkbox" id="taste_3" name="taste_apple" value="apple" />
-            <label for="taste_3">I like apples.</label>
-    </form>
+            <input type="radio" name="size" id="size_3" value="large"/>
+            <label for="size_3">Large</label>
+        </p>
+    </fieldset>
+</form>
+
+
+<form>
+    <p>
+        <input type="checkbox" id="taste_1" name="taste_cherry" value="cherry"/>
+        <label for="taste_1">I like cherries.</label>
+    </p>
+    <p>
+        <input type="checkbox" id="taste_2" name="taste_banana" value="banana"/>
+        <label for="taste_2">I like bananas.</label>
+    </p>
+    <p>
+        <input type="checkbox" id="taste_3" name="taste_apple" value="apple"/>
+        <label for="taste_3">I like apples.</label>
+</form>
+
+
+<table>
+    <caption>Favorite Movies</caption>
+    <tr>
+        <th>Movie</th>
+        <th>Director</th>
+    </tr>
+    <tr>
+        <td>Princess and the Frog</td>
+        <td>John Musker</td>
+    </tr>
+    <tr>
+        <td>Mean Girls</td>
+        <td>Mark Waters</td>
+    </tr>
+    <tr>
+        <td>Dead Poet Society</td>
+        <td>Peter Weir</td>
+    </tr>
+    <tr>
+        <td>The Perks of Being a Wallflower</td>
+        <td>Stephen Chbosky</td>
+    </tr>
+    <tr>
+        <td>Barbie</td>
+        <td>Greta Gerwig</td>
+    </tr>
+
+
+</table>
 </body>
 </html>
