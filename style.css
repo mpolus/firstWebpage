@@ -1,5 +1,6 @@
 html {
     font-family: sans-serif;
+    background-color: antiquewhite;
 }
 
 table {
@@ -15,7 +16,7 @@ td, th {
 }
 
 th {
-    background-color: rgb(235,235,235);
+    background-color: orange;
 }
 
 td {
@@ -24,12 +25,38 @@ td {
 
 tr:nth-child(even) td {
     background-color: rgb(250,250,250);
+    font-weight: bolder;
 }
 
 tr:nth-child(odd) td {
     background-color: rgb(245,245,245);
+    font-weight: bolder;
+
 }
 
 caption {
     padding: 10px;
+}
+
+h1 {
+    color: hotpink;
+    font-size: 3.5em;
+    text-align: center;
+    font-family: Georgia, sans-serif;
+}
+
+h2 {
+    color: mediumpurple;
+}
+
+p {
+    color: green;
+    font-size: 1.2em;
+    line-height: 150%;
+}
+
+li {
+    color: orange;
+    font-style: italic;
+    font-weight: bolder;
 }
