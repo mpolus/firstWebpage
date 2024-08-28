@@ -47,6 +47,7 @@ h1 {
 
 h2 {
     color: mediumpurple;
+    text-align: center;
 }
 
 p {
@@ -59,4 +60,21 @@ li {
     color: orange;
     font-style: italic;
     font-weight: bolder;
+
+}
+
+
+p.main-text{
+    color:plum;
+    font-weight: bold;
+}
+
+#schedule{
+    background-color: purple;
+    text-align: center;
+}
+
+#colors{
+    background-color: purple;
+    text-align: center;
 }
