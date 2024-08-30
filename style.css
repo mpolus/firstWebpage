@@ -78,3 +78,15 @@ p.main-text{
     background-color: purple;
     text-align: center;
 }
+
+a:hover {
+    color: deeppink;
+}
+
+li:nth-child(even){
+    background: lightcoral;
+}
+
+li:nth-child(odd){
+    background: lightgoldenrodyellow;
+}
